@@ -25,12 +25,10 @@ body {
     width: 100%;
     background: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 90px;
+    grid-column-gap: 10px;
     grid-template-areas: 
       "header header header"
-      "advert content content"
       "footer footer footer";
   }
 
@@ -55,4 +53,22 @@ body {
 
 .ancient1-text {
     border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.ancient2-text {
+    border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.ancient3-text {
+    border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.font-control {
+    font-size: 1.1rem;
 }
