@@ -18,7 +18,6 @@ body {
     margin: auto;
     height: 50px;
     padding: 10%;
-    text-align: center;
 
 }
 
@@ -69,4 +68,14 @@ body {
     background-color: black;
     height: 28rem;
     margin-top: -15%;
+}
+
+.about {
+    width: 80%;
+    margin: 20px auto;
+    border: solid black 3px;
+    background: white;
+    padding: 13px;
+    height: 6rem;
+
 }
