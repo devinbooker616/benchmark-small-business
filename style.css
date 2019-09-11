@@ -8,16 +8,13 @@ body {
     background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/g10-1920x1080-d26c5122d8803d571cd4c752aae3a07f.jpg");
     padding: 0
 }
-.lander-text {
-    display: flex;
-    color: white;
-    border: solid white 1px;
-    width: 20%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
-    margin: auto;
-    height: 50px;
-    padding: 10%;
+.lander-about {
+    width: 80%;
+    margin: 20px auto;
+    border: solid black 3px;
+    background: white;
+    padding: 13px;
+    height: 6rem;
 
 }
 
@@ -70,12 +67,16 @@ body {
     margin-top: -15%;
 }
 
-.about {
-    width: 80%;
-    margin: 20px auto;
-    border: solid black 3px;
-    background: white;
-    padding: 13px;
-    height: 6rem;
 
+.title {
+    font-family: fantasy;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about-info {
+    text-align: center;
+    font-size: 1.1rem;
 }
