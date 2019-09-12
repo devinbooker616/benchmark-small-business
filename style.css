@@ -28,6 +28,7 @@ body {
     background-size: 100% 100%;
     height: 50%;
     margin-bottom: 2rem;
+    transition: 100ms linear;
 }
 
 .lander-image2 {
@@ -53,6 +54,7 @@ body {
     transition: all 200ms linear;
     border-bottom: white;
     box-sizing: border-box;
+
 }
 
 
@@ -87,4 +89,9 @@ body {
 
 a {
     color: gold;
+}
+
+
+.container:hover {
+    transform: scale(1.1);
 }
