@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: black;
+    background-image: url("https://cdn.shopify.com/s/files/1/2316/3287/products/6864533487712_960x.jpg?v=1562588470");
+    background-size: cover
 }
 
 .lander-about {
@@ -23,7 +24,6 @@ body {
     font-size: 40px;
     min-height: 550px;
     width: 100%;
-    background: black;
     display: grid;
     grid-gap: 90px;
     grid-column-gap: 10px;
