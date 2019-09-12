@@ -56,18 +56,21 @@ body {
     border: solid gold 3px;
     color: black;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .industry2-text {
     border: solid gold 3px;
     color: black;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .industry3-text {
     border: solid gold 3px;
     color: black;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .font-control {
@@ -77,4 +80,24 @@ body {
 .a-style {
     color: white;
     text-decoration: none;
+}
+
+.industry1-text:hover {
+    background: black;
+    color: gold
+
+}
+
+
+.industry2-text:hover{
+    background: black;
+    color: gold;
+
+}
+
+
+.industry3-text:hover {
+    background: black;
+    color: gold
+
 }
