@@ -55,18 +55,21 @@ body {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .modern2-text {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .modern3-text {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms linear;
 }
 
 .font-control {
@@ -76,4 +79,24 @@ body {
 .a-style {
     color: white;
     text-decoration: none;
+}
+
+.modern1-text:hover {
+    background: black;
+    color: gold
+
+}
+
+
+.modern2-text:hover{
+    background: black;
+    color: gold;
+
+}
+
+
+.modern3-text:hover {
+    background: black;
+    color: gold
+
 }
