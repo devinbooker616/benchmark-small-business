@@ -55,18 +55,21 @@ body {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms  linear; 
 }
 
 .ancient2-text {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms  linear; 
 }
 
 .ancient3-text {
     border: solid gold 3px;
     color: gold;
     text-align: center;
+    transition: 100ms  linear; 
 }
 
 .font-control {
@@ -76,4 +79,22 @@ body {
 .a-style {
     color: white;
     text-decoration: none;
+}
+
+
+.ancient1-text:hover {
+    background: black;
+
+}
+
+
+.ancient2-text:hover{
+    background: black;
+
+}
+
+
+.ancient3-text:hover {
+    background: black
+
 }
