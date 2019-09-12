@@ -72,3 +72,8 @@ body {
 .font-control {
     font-size: 1.1rem;
 }
+
+.a-style {
+    color: white;
+    text-decoration: none;
+}
