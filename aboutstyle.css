@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: gold;
+    
+}
+
+.main-container {
+    width: 80%;
+    min-height: 10%;
+    margin: 20px auto;
+    border: solid white 3px;
+    background: black;
+    padding: 13px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    
+}
