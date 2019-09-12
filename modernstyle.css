@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.lander-about {
+    width: 60%;
+    margin: 20px auto;
+    border: solid gold 3px;
+    background: black;
+    padding: 13px;
+    height: 6rem;
+    color: white;
+    font-family: cursive;
+
+}
+
+.container {
+    font-size: 40px;
+    min-height: 550px;
+    width: 100%;
+    background: black;
+    display: grid;
+    grid-gap: 90px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+      "header header header"
+      "footer footer footer";
+  }
+
+.modern1 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61Zum3BzllL._SY355_.jpg");
+    background-size: 100% 100%;
+    height: 140%;
+}
+
+.modern2 {
+    background-image: url("https://i-cdn.phonearena.com/images/article/114641-two_lead/The-original-iPhone-prototype-was-more-motherboard-than-phone.jpg");
+    background-size: 100% 100%;
+    height: 140%;
+}
+
+.modern3 {
+    background-image: url("https://cdn1.static-tgdp.com/ui/productimages/approved/std.lang.all/22/08/572208_sized_1800x1200_rev_1.jpg");
+    background-size: 100% 100%;
+    height: 140%;
+
+}
+
+.modern1-text {
+    border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.modern2-text {
+    border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.modern3-text {
+    border: solid gold 3px;
+    color: gold;
+    text-align: center;
+}
+
+.font-control {
+    font-size: 1.1rem;
+}
+
+.a-style {
+    color: white;
+    text-decoration: none;
+}
